@@ -1,0 +1,145 @@
+/* POSITIONING BODY, HTML, AND DIV SECTIONS TO FILL THE SCREEN */
+html, body {
+    margin: 0;
+}
+
+.titleScreen{
+    height: 100vh;
+    width: 100vw;
+    background-color: #253943;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.aboutMeScreen{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF5D6;
+    border: 1px solid #FFF5D6;
+}
+
+.projectScreen{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF5D6;
+    border: 1px solid #FFF5D6;
+}
+
+/************************** TITLE SCREEN DIV DESIGN **************************/
+.titleScreen .titleText{
+    color: #FFF5D6;
+    justify-items: center;
+    height: 75%;
+    width: 100%;
+    padding-top: 18%;
+    text-align: center;
+
+}
+
+.titleHeader{
+    font-size: 4rem;
+    font-family: chalkduster, fantasy;
+    font-weight: 600;
+    font-variant: small-caps;
+    animation: zoomInRight;
+    animation-duration: 1.5s;
+}
+
+.titleDegree{
+    font-family: marker felt, fantasy;
+    font-size: 2rem;
+    animation: zoomInRight;
+    animation-duration: 2.5s;
+}
+
+.titleStatus{
+    font-family: marker felt, fantasy;
+    font-size: 2rem;
+    animation: zoomInRight;
+    animation-duration: 3.5s;
+}
+
+.picture{
+    border-radius: 200px;
+    height: 400px;
+    width: 300px;
+    animation: zoomInLeft;
+    animation-duration: 2s;
+    display: block;
+    margin: auto;
+    padding-top: 30%;
+}
+
+/************************** ABOUT ME DESIGN **************************/
+.aboutMeHeader, .projectHeader{
+    font-size: 4rem;
+    font-family: chalkduster, fantasy;
+    font-weight: 600;
+    font-variant: small-caps;
+    text-align: center;
+    animation: rubberBand;
+    animation-duration: 1.5s;
+}
+
+.aboutMeText{
+    margin-left: 2%;
+    height: 60%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.aboutMeText .icon{
+    height: 55%;
+    width: 55%;
+    align-self: center;
+    justify-self: center;
+}
+
+.aboutMeText .details{
+    align-self: center;
+    font-family: marker felt, fantasy;
+    line-height: 1.6;
+}
+
+footer{
+    margin-top: 2%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 20%;
+}
+
+.iconLeft, .detailsLeft{
+    animation: zoomInLeft;
+    animation-duration: 1.5s;
+}
+
+.iconRight, .detailsRight{
+    animation: zoomInRight;
+    animation-duration: 1.5s;
+}
+
+/************************** PROJECTS DESIGN **************************/
+.projectInProgress{
+    animation: zoomInLeft;
+    animation-duration: 1.5s;
+    font-family: marker felt, fantasy;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.thanks{
+    animation: zoomInRight;
+    animation-duration: 1.5s;
+    height: 200px;
+    width: 200px;
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
