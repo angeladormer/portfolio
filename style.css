@@ -77,9 +77,6 @@ html, body {
     font-weight: 600;
     font-variant: small-caps;
     text-align: center;
-    animation: rubberBand;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 
 .projectHeader{
@@ -105,7 +102,8 @@ html, body {
 .aboutMeText .details{
     align-self: center;
     font-family: marker felt, fantasy;
-    line-height: 1.6;
+    line-height: 1.8;
+    font-size: 20px;
 }
 
 footer{
@@ -159,7 +157,7 @@ footer{
 
 .projectGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
 }
 
 .item1{
@@ -169,6 +167,15 @@ footer{
     justify-items: center;
     align-items: center;
 }
+.item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-right: 5%;
+}
+
 
 .list{
     list-style: none;
