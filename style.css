@@ -25,6 +25,13 @@ html, body {
     border: 1px solid #FFF5D6;
 }
 
+/************************** GRADIANT DESIGN **************************/
+.gradient{
+    height: 6rem;
+    width: 100vw;
+    background: linear-gradient(to bottom, #253943, #FFF5D6);
+}
+
 /************************** TITLE SCREEN DIV DESIGN **************************/
 .titleScreen .titleText{
     color: #FFF5D6;
@@ -37,26 +44,27 @@ html, body {
 }
 
 .titleHeader{
-    font-size: 4rem;
-    font-family: chalkduster, fantasy;
-    font-weight: 600;
+    font-size: 5rem;
+    font-family: akshar, fantasy;
     font-variant: small-caps;
     animation: zoomInRight;
     animation-duration: 1.5s;
 }
 
 .titleDegree{
-    font-family: marker felt, fantasy;
-    font-size: 2rem;
+    font-family: akshar, fantasy;
+    font-size: 2.5rem;
     animation: zoomInRight;
     animation-duration: 2.5s;
+    margin-bottom: 0;
 }
 
 .titleStatus{
-    font-family: marker felt, fantasy;
-    font-size: 2rem;
+    font-family: akshar, fantasy;
+    font-size: 2.5rem;
     animation: zoomInRight;
     animation-duration: 3.5s;
+    margin-top: 0;
 }
 
 .picture{
@@ -73,7 +81,7 @@ html, body {
 /************************** ABOUT ME DESIGN **************************/
 .aboutMeHeader, .projectHeader{
     font-size: 4rem;
-    font-family: chalkduster, fantasy;
+    font-family: akshar, fantasy;
     font-weight: 600;
     font-variant: small-caps;
     text-align: center;
@@ -101,9 +109,10 @@ html, body {
 
 .aboutMeText .details{
     align-self: center;
-    font-family: marker felt, fantasy;
-    line-height: 1.8;
-    font-size: 20px;
+    font-family: akshar, fantasy;
+    line-height: 1.5;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 footer{
@@ -131,7 +140,7 @@ footer{
 /************************** PROJECTS DESIGN **************************/
 .projectExplanationTitle{
     align-self: center;
-    font-family: marker felt, fantasy;
+    font-family: akshar, fantasy;
     line-height: 1.6;
     text-align: center;
     opacity: 50%;
@@ -139,12 +148,12 @@ footer{
     margin-bottom: 50px;
 }
 .projectTitle{
-    font-family: marker felt, fantasy;
+    font-family: akshar, fantasy;
     font-size: 1.5em;
 }
 
 .projectExplanation{
-    font-family: marker felt, fantasy;
+    font-family: akshar, fantasy;
     line-height: 1.6;
     opacity: 50%;
 }
